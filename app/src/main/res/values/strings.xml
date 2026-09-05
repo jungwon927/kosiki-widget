@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">코식이</string>
+    <string name="widget_name">코식이 주차 위치</string>
+    <string name="widget_desc">마지막으로 주차한 층과 구역을 보여줍니다.</string>
+</resources>
