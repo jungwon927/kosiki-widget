@@ -7,7 +7,7 @@
     android:gravity="center_vertical"
     android:background="@drawable/widget_bg"
     android:paddingStart="14dp"
-    android:paddingEnd="12dp"
+    android:paddingEnd="14dp"
     android:paddingTop="10dp"
     android:paddingBottom="10dp">
 
@@ -41,15 +41,15 @@
             android:ellipsize="end" />
     </LinearLayout>
 
-    <!-- 코식이 차. 폭을 41dp 로 묶어 두면 높이가 46dp 로 잡힌다.
-         위젯을 작게 줄이면 fitCenter 가 알아서 더 작게 그린다. -->
+    <!-- 코식이 차. 위젯 높이(위아래 여백 10dp 제외)에 맞춰 커진다.
+         너무 넓어지지 않게 96dp 에서 묶어 둔다. -->
     <ImageView
         android:id="@+id/widget_car"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:adjustViewBounds="true"
-        android:maxWidth="41dp"
+        android:maxWidth="96dp"
         android:scaleType="fitCenter"
         android:src="@drawable/kosiki_car"
         android:contentDescription="@string/car_desc" />
