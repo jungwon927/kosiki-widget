@@ -3,4 +3,5 @@
     <string name="app_name">코식이</string>
     <string name="widget_name">코식이 주차 위치</string>
     <string name="widget_desc">마지막으로 주차한 층과 구역을 보여줍니다.</string>
+    <string name="car_desc">코식이 차</string>
 </resources>
